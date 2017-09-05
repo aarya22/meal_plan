@@ -117,7 +117,6 @@ def generate_meals(user_in, user_cal=1600):
                 if alt:
                     f = choose_meal(food_map[t + 'i'], eaten)
 
-
                 else:
                     f = choose_meal(food_map[t + 'r'], eaten)
 
